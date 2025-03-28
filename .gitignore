@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Build output
+dist/
+
+# Node modules
+node_modules/
+
