@@ -5,7 +5,7 @@ import { getStudent } from '../services/api';
 
 const EditStudent = () => {
     const { id } = useParams();
-    const [student, setStudent] = useState(null);
+    const [student, setStudent] = useState(null); 
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const history = useHistory();
